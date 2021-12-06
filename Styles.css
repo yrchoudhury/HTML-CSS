@@ -68,3 +68,36 @@ font-weight: bold;
 
 
 }
+
+.caption {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.container { 
+    display: flex;
+}
+
+.cake-item { 
+    border: 1px dashed yellow;
+    width: 275px;
+    height: 275px;
+    padding: 4px;
+}
+
+.cake-group {
+    border: 2px solid green;
+    width: 275px;
+}
+
+.container { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.caption { 
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
